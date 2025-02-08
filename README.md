@@ -8,11 +8,8 @@ The user enters a time in seconds for the countdown.
 A red dot appears on the screen, and the user needs to click it as quickly as possible.
 The reaction time (in seconds) is recorded with each click.
 The game stops when the timer runs out.
-Dark Mode / Light Mode Toggle:
 
-The game allows users to toggle between dark mode and light mode with the click of an icon.
 Responsive Design:
-
 The game interface adjusts to various screen sizes, making it mobile-friendly.
 React and Font Awesome:
 

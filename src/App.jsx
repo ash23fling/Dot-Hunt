@@ -92,11 +92,11 @@ export default function App() {
   return (
     <div className={`App ${isDarkMode ? "dark-mode" : "light-mode"}`}>
       <div className="Header-Title">
-        <div className="dark-mode-toggle">
+{/*         <div className="dark-mode-toggle">
           <button className="toggle-mode" onClick={toggleDarkMode}>
             Toggle {isDarkMode ? "Light" : "Dark"} Mode
           </button>
-        </div>
+        </div> */}
         <strong> THE DOT HUNT </strong>
         <p>
           The rules are simple: click or tap the dot as soon as possible. Your

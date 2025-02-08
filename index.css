@@ -1,0 +1,62 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.Header-Title {
+  margin-bottom: 20px;
+}
+
+.Header input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.Header button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.Screen {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border: 5px solid black;
+  margin: 20px 0;
+}
+
+.Screen.running {
+  border-color: green;
+}
+
+#dot {
+  position: absolute;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+.ScoreTable table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.ScoreTable th, .ScoreTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .Header input, .Header button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .Screen {
+    height: 200px;
+  }
+
+  #dot {
+    font-size: 20px;
+  }
+}
